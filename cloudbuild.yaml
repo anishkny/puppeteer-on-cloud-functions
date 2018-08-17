@@ -1,0 +1,3 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['gcloud', 'beta', 'functions', 'deploy', 'screenshot', '--trigger-http', '--runtime', 'nodejs8', '--memory', '1024MB']
