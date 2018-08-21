@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "deploy": "gcloud beta functions deploy screenshot --trigger-http --runtime nodejs8 --memory 1024MB"
+  },
   "dependencies": { 
     "puppeteer": "^1.6.2"
   }
