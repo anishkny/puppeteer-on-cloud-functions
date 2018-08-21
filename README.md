@@ -4,5 +4,5 @@ Based on this blog post: *[Introducing headless Chrome support in Cloud Function
 
 ## Deployment
 ```
-gcloud beta functions deploy screenshot --trigger-http --runtime nodejs8 --memory 1024MB
+npm run deploy
 ```
